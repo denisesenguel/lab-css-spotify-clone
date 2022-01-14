@@ -1,8 +1,28 @@
-/*
-Colors:
+html, body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.header-section {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-*/
+.header-section > h1 {
+    font-size: 4em;
+    margin: 0px auto;
+}
+
+.header-section > p {
+    width: 60%;
+    text-align: center;
+    font-size: 1.5em;
+}
